@@ -52,4 +52,26 @@ void main() {
     // print(a * number);
     print("$number x $a = ${number * a}");
   }
+  // ------- FOR LOOP  with LIST-----------
+  List StudentName = ["Raza", "Ali", "Hasan", "Mohsin"];
+  for (int a = 0; a <= StudentName.length - 1; a++) {
+    print(StudentName[a]);
+  }
+  // ----------------FOR LOOP using 'var i in list_name'-------
+  for (var i in StudentName) {
+    print(i);
+  }
+// ----- Practice EVEN & ODD number list ----------
+  List Number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  List EvenNumbers = [];
+  List OddNumbers = [];
+  for (int a in Number) {
+    if (a % 2 == 0) {
+      EvenNumbers.add(a);
+    } else {
+      OddNumbers.add(a);
+    }
+  }
+  print(EvenNumbers);
+  print(OddNumbers);
 }

@@ -118,3 +118,15 @@
 //   }
 //   print("-------------------------");
 // }
+
+// ARROW FUNCTION -------------- use it for single line code / => denote return
+// void main() {
+//   print(studentRecord(2, 3));
+// }
+// studentRecord(num1, num2) => num1 + num2;
+// ----------------------------------------
+
+// NULL SAFETY -------
+
+
+

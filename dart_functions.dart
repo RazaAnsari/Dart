@@ -126,7 +126,24 @@
 // studentRecord(num1, num2) => num1 + num2;
 // ----------------------------------------
 
-// NULL SAFETY -------
+// NULL SAFETY ------- ? |||| ?? |||| !
+// void main() {
+//   // studentInfo(name: "ALi");
+//   studentInfo(fbLink: ""); // Result === Nothing
+//   studentInfo(); // Result == NO FB ACCOUNT
+//   studentInfo(fbLink: "Facebook.com"); // Result == Facebook.com
+// }
+// studentInfo({String? fbLink}) {
+//   // String? ui = fbLink ?? "NO FB ACCOUNT";
+//   String? ui = fbLink ?? "NO FB ACCOUNT";
+//   print(ui);
+// //--------------------------------
+// // String ui = fblink!;     ---------- ERROR FOUND
+// // ------------------------------------------------
+// }
 
-
-
+//  TERNARY OPERATOR (use instead of if-else)
+// void main() {
+//   int age = 19;
+//   String result = age > 19 ? "Allow" : "Not Allow";
+// }
